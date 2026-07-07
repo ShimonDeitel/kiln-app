@@ -1,0 +1,41 @@
+{
+  "identifier" : "Kiln",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "kiln_pro_group",
+      "localizations" : [],
+      "name" : "Kiln Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "kiln_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Kiln Pro unlocks Glaze recipe library with cross-batch comparison charts",
+              "displayName" : "Kiln Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.ceramicslog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Kiln Pro Monthly",
+          "subscriptionGroupID" : "kiln_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
