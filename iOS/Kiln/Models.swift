@@ -10,16 +10,7 @@ struct Firing: Identifiable, Codable, Equatable {
     var outcome: String
     var notes: String
 
-    init(
-        id: UUID = UUID(),
-        createdAt: Date = Date(),
-        pieceName: String = "",
-        glaze: String = "",
-        cone: String = "",
-        firingDate: Date = Date(),
-        outcome: String = "",
-        notes: String = ""
-    ) {
+    init(id: UUID = UUID(), createdAt: Date = Date(), pieceName: String = "", glaze: String = "", cone: String = "", firingDate: Date = Date(), outcome: String = "", notes: String = "") {
         self.id = id
         self.createdAt = createdAt
         self.pieceName = pieceName
